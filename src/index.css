@@ -1,0 +1,504 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* tailwind  */
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* App body */
+.main {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* clear float */
+.clear {
+  clear: both;
+}
+
+/* navigation  */
+
+nav {
+  clear: both;
+}
+
+/* logo */
+#logo {
+  padding: 30px;
+  float: left;
+}
+
+/* logo text */
+#logo p {
+  color: aliceblue;
+  font-size: 30px;
+}
+
+/* logo image */
+#logo img {
+  height: 90px;
+}
+
+
+
+/* nav links */
+
+#nav-links {
+  color: white;
+  float: right;
+  /* padding:30px; */
+  margin-right: 30%;
+}
+
+/* nav list */
+#nav-links ul li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 80px;
+  font-size: 20px;
+  margin-top: 50px;
+  font-weight: 900;
+}
+
+/* a  */
+#nav-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/*links hover */
+#nav-links ul li a:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+
+/* Hero section */
+
+header {
+  margin-left: 30px;
+  margin-right: 30px
+}
+
+/* hero text */
+#hero-text {
+  margin-top: 70px;
+  width: 40%;
+  font-size: 30px;
+  float: left;
+  text-align: left;
+}
+
+
+/*  nft image container */
+#hero-image {
+  float: right;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: white solid 5px;
+}
+
+/* nft monkey image */
+#hero-image img {
+  width: 100%;
+}
+
+
+/* mint buttons */
+#btn-section .btn {
+  border: 2px solid white;
+  /* width: 20%; */
+  margin-top: 40px;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 40px 10px;
+  font-size: 20ppx;
+}
+
+/* btn hover */
+#btn-section .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* hero section end */
+
+
+
+/* main section */
+
+main {
+  margin-top: 400px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* explorer */
+#explore-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  /* overflow-x: scroll; */
+  /* overscroll-behavior:calc(34dg) */
+}
+
+/* display image */
+#explore-image img {
+  width: 300px;
+  padding: 0 70px;
+}
+
+/* section titles */
+.title {
+  color: black;
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+
+
+
+
+/* minter section */
+
+#minte-section {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#minte-section .title {
+  color: white;
+  margin-bottom: 2px;
+  /* font-size: 40px; */
+}
+
+#minte-section input,
+textarea,
+button {
+  width: 40%;
+  height: 50px;
+  display: block;
+  margin-left: 30%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  outline: none;
+  overflow: hidden;
+  padding-left: 10px;
+  color: #000;
+}
+
+#desc {
+  height: 100px;
+  padding-top: 10px;
+}
+
+#minte-section button {
+  /* margin-left:  40px;  */
+  background-color: white;
+  border: 2px solid white;
+  width: 10%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+
+/* #minte-section button:hover{
+  background-color: wba;
+   color: black;
+} */
+
+#selector {
+  color: white;
+}
+
+#image-text {
+  margin-top: 30px;
+  text-align: center;
+
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+
+}
+
+.loader-image {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.loader-image img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 20%; */
+}
+
+
+
+
+/* Team section */
+
+
+#team-section {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+#team-section p {
+  color: #000;
+  text-align: center;
+  font-weight: 800;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#team-mate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#team-mate div {
+  margin-left: 70px;
+  margin-right: 70px;
+
+}
+
+#team-mate img {
+  width: 250px;
+  border-radius: 50%;
+  border: rgb(236, 231, 231) 4px solid;
+}
+
+
+
+/* social-media icon */
+
+#social-media{
+  margin-top: 100px;
+}
+
+#social-media-cont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#social-media-cont img{
+  padding: 0 20px;
+}
+
+.img-lg{
+  width: 100px;
+}
+
+.Img-sm{
+  width: 50px;
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 600px) {
+
+
+  /* logo */
+
+  #logo {
+    padding: 50px;
+    /* float: left; */
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+  }
+
+  /* logo text */
+  #logo p {
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  /* header */
+  header {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* nav links */
+  #nav-links ul li {
+    display: none;
+  }
+
+  /* hero text */
+  #hero-text {
+    margin-top: 70px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+  }
+
+
+
+
+  /*  nft image container */
+  #hero-image {
+    width: 100%;
+    border: white solid 5px;
+  }
+
+
+  /* explorer */
+  #explore-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+
+  /* main section */
+
+  main {
+    margin-top: 300px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  #minte-section input,
+  textarea,
+  button {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    /* margin-left: 30%; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    outline: none;
+    /* overflow: ; */
+    padding-left: 10px;
+    color: #000;
+  }
+
+
+  #minte-section button {
+    /* margin-left:  40px;  */
+    background-color: white;
+    border: 2px solid white;
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    padding: 15px 26px;
+  }
+
+
+
+  /* team section */
+
+
+  #team-mate div {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+
+  }
+
+  #team-mate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* overflow-x: scroll; */
+  }
+
+  #team-mate div {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 30px 0;
+  }
+
+  #team-section p {
+    text-align: left;
+    display: none;
+
+  }
+
+}
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
